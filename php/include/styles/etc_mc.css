@@ -1,0 +1,240 @@
+/* ############################## LINKS ############################## */
+A.etc_mc_sort:link, A.etc_mc_sort:visited {
+    text-decoration: none; 
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-weight: bold; 
+    font-size: 10px; 
+    color: #000000;
+    background-color: #cdcdcd;
+}
+A.etc_mc_sort:hover {
+    text-decoration: none; 
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-weight: bold; 
+    font-size: 10px; 
+    color: #ededed;
+    background-color: #cdcdcd;
+}
+TD.etc_mc_nav {
+    text-align: center;
+    vertical-align: middle;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    color: #000000;
+    background-color: #ededed;
+    border-color: #ffffff;
+    border-style: solid;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+/* ############################## //LINKS ############################## */
+
+/* ############################## DEFAULT ############################## */
+TR.etc_mc_index_1 {
+    color: #000000;
+    background-color: #cdcdcd;
+}
+TD.etc_mc_index_1 {
+    text-align: center;
+    vertical-align: middle;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #cdcdcd;
+    border-color: #000000;
+    border-style: solid;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+TD.etc_mc_index_2 {
+    text-align: center;
+    vertical-align: middle;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    color: #000000;
+    background-color: #ededed;
+    border-color: #cdcdcd;
+    border-style: solid;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+}
+/* ############################## //DEFAULT ############################## */
+
+/* ############################## METALLICA ############################## */
+TR.etc_mc_met_1 {
+    color: #000000;
+    background-color: #cdcdcd;
+}
+TD.etc_mc_met_1 {
+    text-align: center;
+    vertical-align: middle;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #cdcdcd;
+    border-color: #000000;
+    border-style: solid;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+TD.etc_mc_met_2 {
+    text-align: center;
+    vertical-align: middle;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    color: #000000;
+    background-color: #ededed;
+    border-color: #cdcdcd;
+    border-style: solid;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+}
+/* ############################## //METALLICA ############################## */
+
+/* ############################## DETAILS ############################## */
+TR.etc_mc_det_1 {
+    color: #000000;
+    background-color: #cdcdcd;
+}
+TD.etc_mc_det_1 {
+    text-align: center;
+    vertical-align: middle;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #cdcdcd;
+    border-color: #000000;
+    border-style: solid;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+TD.etc_mc_det_2 {
+    text-align: center;
+    vertical-align: middle;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    color: #000000;
+    background-color: #ededed;
+    border-color: #cdcdcd;
+    border-style: solid;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+}
+/* ############################## //DETAILS ############################## */
+
+/* ############################## CONTACT FORM ############################## */
+INPUT.form_mc {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    text-indent: 1px;
+    border-color: #000000;
+    border-style: solid;
+    background: #ededed;
+    border-top-width: 0px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+}
+TEXTAREA.form_mc_txt {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    text-indent: 1px;
+    border-color: #000000;
+    border-style: solid;
+    background: #ededed;
+    border-top-width: 0px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+}
+INPUT.submit {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    text-indent: 0px;
+    border-color: #000000;
+    border-style: solid;
+    background: #cccccc;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+}
+TD.formc_mesaj {
+    text-align: center;
+    vertical-align: middle;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #ededed;
+}
+TD.formc_mesaje {
+    text-align: center;
+    vertical-align: middle;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #990000;
+    background-color: #ededed;
+}
+TD.formc_input_1, TD.formc_input_2{
+    text-align: center;
+    vertical-align: middle;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #ededed;
+}
+TD.formc_submit_2 {
+    text-align: center;
+    vertical-align: middle;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #ededed;
+}
+TD.formc_submit_3 {
+    text-align: left;
+    vertical-align: middle;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #ededed;
+}
+/* ############################## //CONTACT FORM ############################## */
