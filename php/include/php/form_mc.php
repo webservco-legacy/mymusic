@@ -24,15 +24,15 @@ if (isset($_POST['submit'])) {
     if ($err == '0') {
         $query_rstId = "SELECT MAX(id) FROM `etc_mc_contact`";
         $rstId=mysql_query($query_rstId) or die('Oups!<br>' . mysql_error());
-	    $row_rstId = mysql_result($rstId, 0);
-		$cid=$row_rstId+1;
+        $row_rstId = mysql_result($rstId, 0);
+        $cid=$row_rstId+1;
 
-		$query = "INSERT INTO `etc_mc_contact` (id, produsul, numele, adresa, subiectul, mesajul, dataform, citit, raspuns) VALUES ('".$cid."', '".$produsul."', '".$numele."', '".$adresa."', 'shop', '".$mesajul."', '".$dataform."', '0', '0')";
-		mysql_query($query) or die('Oups!<br>' . mysql_error());
-		
-		$msgstyle = 'formc_mesaj';
+        $query = "INSERT INTO `etc_mc_contact` (id, produsul, numele, adresa, subiectul, mesajul, dataform, citit, raspuns) VALUES ('".$cid."', '".$produsul."', '".$numele."', '".$adresa."', 'shop', '".$mesajul."', '".$dataform."', '0', '0')";
+        mysql_query($query) or die('Oups!<br>' . mysql_error());
+        
+        $msgstyle = 'formc_mesaj';
         $mesajEr = LN_MC_C_MES6;
-	    $produsul = '';
+        $produsul = '';
         $numele = LN_MC_C_NAME;
         $adresa = LN_MC_C_EMAIL;
         $mesajul = LN_MC_C_MESSAGE;

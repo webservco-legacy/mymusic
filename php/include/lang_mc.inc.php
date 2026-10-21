@@ -4,7 +4,7 @@
     ENGLISH
     --------------------------------------------------------------------------------------------------------------*/
 function ln_mc_en() {
-	define('LN_MC_TITLES', 'Titles');
+    define('LN_MC_TITLES', 'Titles');
     define('LN_MC_ARTIST', 'Artist');
     define('LN_MC_TITLE', 'Title');
     define('LN_MC_YEAR', 'Year');
@@ -35,7 +35,7 @@ function ln_mc_en() {
     ROMANIAN
     --------------------------------------------------------------------------------------------------------------*/
 function ln_mc_ro() {
-	define('LN_MC_TITLES', 'Titluri');
+    define('LN_MC_TITLES', 'Titluri');
     define('LN_MC_ARTIST', 'Artist');
     define('LN_MC_TITLE', 'Titlu');
     define('LN_MC_YEAR', 'An');
@@ -64,17 +64,17 @@ function ln_mc_ro() {
     --------------------------------------------------------------------------------------------------------------*/
 
 switch($ln) {
-	case "en": {
-		ln_mc_en();
-		break;
-	}
-	case "ro": {
-		ln_mc_ro();
-		break;
-	}
-	default: {
-		ln_mc_en();
-		break;
-	}
+    case "en": {
+        ln_mc_en();
+        break;
+    }
+    case "ro": {
+        ln_mc_ro();
+        break;
+    }
+    default: {
+        ln_mc_en();
+        break;
+    }
 }
 ?>
